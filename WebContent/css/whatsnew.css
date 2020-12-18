@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/* 내용역역 > whatsnew 영역 크기 지정 및 배경 설정
+ ----------------------------------- */
+#whatsnew {
+    height:900px;
+}
+
+#whatsnew>h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: #F38200;
+}

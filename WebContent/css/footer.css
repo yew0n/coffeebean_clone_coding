@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* 하단 영역 크기 지정 및 배경 설정
+ ----------------------------------- */
+#footer {
+    width: auto;
+    height: 450px;
+    background: #E2E2E2;
+    overflow: hidden;
+    position: relative;
+    text-align:left;
+}
+
+#footer>hr {
+    position: absolute;
+    left: 2.5%;
+    top: 66%;
+    border-top: 1px solid #2F1C11;
+    width: 95%;
+
+}
+
+/* 사이트맵 리스트 가로 배치
+ ----------------------------------- */
+#footer #sitemap {
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+
+}
+
+#footer #sitemap li {
+    display: inline-block;
+    width: 16%;
+    line-height: 170%;
+    font-size: 1em;
+    font-weight: bold;
+    color: #D0784E;
+}
+
+#footer #sitemap li a {
+    font-size: 0.8em;
+    line-height: 100%;
+    font-weight: normal;
+    color: #2F1C11;
+}
+
+#footer #sitemap, #sns_list:after {
+    float: none;
+    clear: both;
+}
+
+#copyright {
+    height: 40%;
+    font-size:0.8em;
+    line-height:150%;
+    position:absolute;
+    top:70%;
+    left:50px;
+    word-spacing: 2px;
+}
+#copyright a{
+    color:#2F1C11;
+}
+#sns_list{
+    margin-right:30px;
+    margin-top:320px;
+}
+#sns_list li{
+    display:inline;
+}
+#sns_list li a img{
+    float:right;
+    margin-right:10px;
+    width:45px;
+    height:45px;
+    overflow:hidden;
+}

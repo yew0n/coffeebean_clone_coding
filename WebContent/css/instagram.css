@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* 내용역역 > instagram 영역 크기 지정 및 배경 설정
+ ----------------------------------- */
+#instagram {
+    width: 100%;
+    height: 600px;
+    background: #7c51a1;
+    text-align: center;
+    position: relative;
+}
+
+#instagram>h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/** 박스의 크기, 색상 구성하기 */
+/* 전체 박스의 크기 지정과 중앙 배치 */
+#instagram_content {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/** 모든 박스의 크기 일괄 지정 */
+/** float : left = 같은 크기를 갖는 박스에 float 속성을 동일 지정 -> 가로로로 배치되고, 부모 넓이를 벗어날 경우 자동 줄바꿈*/
+#instagram_content div {
+    text-align: center;
+    width: 15%;
+    height: 180px;
+    float: left;
+    overflow: hidden;
+}
+
+#instagram_content div img {
+    width: 100%;
+    height: 100%;
+}
+
+#instagram_content div img:hover {
+    filter: brightness(80%);
+    /*  default */
+    transform: scale(1.1);
+    /*  크롬 */
+    -webkit-transform: scale(1.1);
+    /* FireFox */
+    -moz-transform: scale(1.1);
+    /* Opera */
+    -o-transform: scale(1.1);
+    transition: transform .35s;
+    -o-transition: transform .35s;
+    -moz-transition: transform .35s;
+    -webkit-transition: transform .35s;
+}
+
+/** float 마감제 */
+.clear:after {
+    content: '';
+    display: block;
+    float: none;
+    clear: both;
+}
+
+#instagram_button a {
+    background-color: #F38200;
+    padding: 10px 50px;
+    color: #fff;
+    font-family: "Archer-Semibold";
+    letter-spacing: 1px;
+}
