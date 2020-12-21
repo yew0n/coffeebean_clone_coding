@@ -25,8 +25,8 @@
     <link rel="stylesheet" type="text/css" href="css/whatsnew.css" />
     <link rel="stylesheet" type="text/css" href="css/instagram.css" />
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
     <!-- JS 파일 참조 처리 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script>
@@ -38,7 +38,7 @@
 <body>
     <!-- 팝업 div -->
     <div class="backlayer"></div>
-    <div class="emphasized" id="loadingDiv">
+    <div class="emphasized">
         <img src="img/popup.jpg" />
         <div id="popup_close">X</div>
     </div>
@@ -57,7 +57,7 @@
                 <a href="#">채용정보</a>
                 <a href="#">단체 및 기업구매</a>
                 <a href="#">고객서비스</a>
-                <a href="#" id="bean_button"><img src="img/bean.png" /></a>
+                <a href="#" id="bean_button"><img src="img/bean.png" id="bean_img" /></a>
             </div>
         </div>
         <!-- 상단영역3 - 메뉴2-->
@@ -241,9 +241,12 @@
                         </li>
                     </ul>
                 </div> <!-- div menu 닫기 -->
-                <a href="#" id="search"><img src="img/search.PNG" /></a>
+                <a href="#" id="search"><img src="img/search.PNG" id="search_img"/></a>
             </div> <!-- div menu-container 닫기 -->
         </div> <!-- menu2 div영역 닫기-->
+        <div id="search_div">
+
+        </div>
     </div> <!-- header div 영역 닫기 -->
     <!-- 내용 영역 -->
     <div id="container">
