@@ -13,3 +13,32 @@
     margin-bottom: 50px;
     color: #F38200;
 }
+#mdspick .product{
+    font-size:1em;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+#mdspick .price{
+    font-size:0.9em;
+    color: #F38200;
+    margin-bottom:10px;
+}
+#mdspick .reprice{
+    font-size:0.8em;
+    text-decoration: line-through;
+    margin-bottom:7px;
+}
+
+#mdspick .soldout{
+    font-size:0.9em;
+    width:50px;
+    color: #F38200;
+    border : 1px solid #F38200;
+    margin:5px auto;
+    padding:3px;
+}
+#mdspick .description{
+    font-size:0.8em;
+    color:#696969;
+    margin-bottom:10px;
+}
