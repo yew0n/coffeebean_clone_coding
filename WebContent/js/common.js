@@ -3,16 +3,16 @@ $(document).ready(function() {
     $("#login").hide();
     $("#search_div").hide();
 
-    /* 팝업 일단 안뜨게 해놓음 > 나중에 이거 없애고 #popup_close.click 주석처리를 풀어야함 */
+    /* 팝업 일단 안뜨게 해놓음 > 나중에 이거 없애고 #popup_close.click 주석처리를 풀어야함
     $(".emphasized").hide();
-    $(".backlayer").hide();
+    $(".backlayer").hide();*/
 
-    /*
+
         $("#popup_close").click(function() {
             $(".emphasized").hide();
             $(".backlayer").hide();
         });
-    */
+
     $("#bean_button").click(function() {
         if ($("#bean_img").attr("src") == "img/bean.png" || $("#bean_img").attr("src") == "img/bean.PNG") {
             $("#bean_img").attr("src", "img/bean_close.PNG");
