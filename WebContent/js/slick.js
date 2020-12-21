@@ -1,5 +1,4 @@
-
-$('.whats-autoplay-btn').on('click',function(){
+$('.whats-autoplay-btn').on('click', function() {
     $('whatsnewSlide').slick('slickPause');
 });
 $(document).on('ready', function() {
@@ -22,6 +21,13 @@ $(document).on('ready', function() {
         autoplay: true,
         autoplaySpeed: 2000
     });
+
+    $(".mdsimg").hover(
+        function() {
+            console.log("hover 들어온다.");
+            $(this).parent().parent().find(".quickview").toggleClass("hidden");
+        }
+    );
 });
 /* global window, document, define, jQuery, setInterval, clearInterval */
 ;

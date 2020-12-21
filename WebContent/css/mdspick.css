@@ -31,14 +31,29 @@
 
 #mdspick .soldout{
     font-size:0.9em;
-    width:50px;
+    width:40px;
     color: #F38200;
     border : 1px solid #F38200;
     margin:5px auto;
-    padding:3px;
+    font-weight:bold;
+    padding:5px;
 }
 #mdspick .description{
     font-size:0.8em;
     color:#696969;
     margin-bottom:10px;
+}
+#mdspick .quickview{
+    position:absolute;
+    width:200px;
+    margin-top:-100px;
+    margin-left:-100px;
+    background: #F38200;
+    line-height:200%;
+    color:#fff;
+    font-weight:bold;
+    font-size:1.1em;
+}
+#mdspick .hidden{
+    display:none;
 }
