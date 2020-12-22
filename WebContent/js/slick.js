@@ -1,6 +1,3 @@
-$('.whats-autoplay-btn').on('click', function() {
-    $('whatsnewSlide').slick('slickPause');
-});
 $(document).on('ready', function() {
     $(".whatsnewSlide").slick({
         dots: true,
@@ -22,6 +19,27 @@ $(document).on('ready', function() {
         autoplaySpeed: 2000
     });
 
+    // 재생/일시정지 구현
+    $('.autoplay-btn').on('click', function() {
+        var target = $(this);
+        var targetSlide;
+
+        // 눌린 버튼의 id값을 가져와서 autoplay를 설정할 slide를 targetSlide에 할당
+        if (target.attr('id') == "wn_autoplay") {
+            targetSlide = $('.whatsnewSlide');
+        } else {
+            targetSlide = $('.mdspickSlide');
+        }
+
+        // 버튼 변환 처리 및 targetSlide에 Pause+Play 실행
+        if (target.attr('value') == "▶") {
+            target.val("||");
+            targetSlide.slick("slickPause");
+        } else {
+            target.val("▶");
+            targetSlide.slick("slickPlay");
+        }
+    });
 });
 /* global window, document, define, jQuery, setInterval, clearInterval */
 ;

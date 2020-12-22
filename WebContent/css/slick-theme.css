@@ -176,19 +176,11 @@
 }
 
 /* 오토플레이 버튼*/
-.whatsnewSlide .autoplay-btn {
-    position:absolute;
-    z-index:50;
-    color:#000;
-}
-
-.whatsnewSlide[data-slick-autoplay-status="Y"] .autoplay-btn:after {
-    content:"■";
-    display:block;
-}
-
-.whatsnewSlide[data-slick-autoplay-status="N"] .autoplay-btn:after {
-    content:"▶";
-    display:block;
-    font-size:15px;
+.autoplay-btn{
+    display:inline-block;
+    height:50px;
+    width:50px;
+    color: #F38200;
+    background:none;
+    border:none;
 }

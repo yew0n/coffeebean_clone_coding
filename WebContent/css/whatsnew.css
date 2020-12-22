@@ -4,6 +4,7 @@
  ----------------------------------- */
 #whatsnew {
     height:900px;
+    position:relative;
 }
 
 #whatsnew>h1 {
