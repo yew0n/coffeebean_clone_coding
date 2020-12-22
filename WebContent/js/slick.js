@@ -34,10 +34,10 @@ $(document).on('ready', function() {
         // 버튼 변환 처리 및 targetSlide에 Pause+Play 실행
         if (target.attr('value') == "▶") {
             target.val("||");
-            targetSlide.slick("slickPause");
+            targetSlide.slick("slickPlay");
         } else {
             target.val("▶");
-            targetSlide.slick("slickPlay");
+            targetSlide.slick("slickPause");
         }
     });
 });
