@@ -114,11 +114,32 @@ a {
 /* 검색 영역 (검색 버튼 누르면 나타나는 부분)
 ---------------------------------------------*/
 #header #search_div{
-    width:auto;
-    height:100px;
-    background:#bbb;
+    margin:auto;
+    width:1300px;
+    height:35px;
+    background:#eee;
+    line-height:200%;
+    text-align:center;
+    padding:25px 0;
 }
-
+#header #search_div #search_form .input_css{
+    width:90%;
+    height:30px;
+    border:none;
+    background:none;
+    font-size:0.9em;
+    text-align: center;
+}
+#header #search_div button{
+    display:inline-block;
+    width:25px;
+    height:25px;
+    vertical-align:middle;
+    border:none;
+    text-indent:-10000px;
+    background: url(../img/search.PNG) no-repeat center center;
+    margin-left:20px;
+}
 
 
 
