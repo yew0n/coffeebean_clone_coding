@@ -32,7 +32,7 @@ $(document).ready(function() {
         if ($("#search_img").attr("src") == "img/search.PNG" || $("#search_img").attr("src") == "img/search.png") {
             $("#search_img").attr("src", "img/search_close.PNG");
         } else {
-            $("#search_img").attr("src", "img/search.png");
+            $("#search_img").attr("src", "img/search.PNG");
         }
         $("#search_div").slideToggle(200);
     });
