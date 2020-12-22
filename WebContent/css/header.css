@@ -169,7 +169,6 @@ a {
 /* 팝업 시 뒤에 뿌려지는 배경 dimBackground */
 .backlayer{
     width:100%;
-    height:100%;
     position:absolute;
     z-index:200000;
     top:0;

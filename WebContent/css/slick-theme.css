@@ -177,10 +177,20 @@
 
 /* 오토플레이 버튼*/
 .autoplay-btn{
-    display:inline-block;
     height:50px;
     width:50px;
     color: #F38200;
     background:none;
     border:none;
+    font-size:1.1em;
+}
+#md_autoplay{
+    position:absolute;
+    top:84%;
+    left:45%;
+}
+#wn_autoplay{
+    position:absolute;
+    top:81.5%;
+    left:44%;
 }
